@@ -1,0 +1,234 @@
+{
+  "grid_dimensions": {
+    "nx": 32,
+    "ny": 32,
+    "nz": 32,
+    "total_sites": 32768
+  },
+  "channels": {
+    "f_channels": 19,
+    "g_channels": 19,
+    "total_channels": 38,
+    "expected_total": 38
+  },
+  "timesteps": {
+    "f_population": {
+      "count": 99,
+      "range": [
+        1001001,
+        1001099
+      ],
+      "files": 99
+    },
+    "g_population": {
+      "count": 99,
+      "range": [
+        1001001,
+        1001099
+      ],
+      "files": 99
+    }
+  },
+  "data_format": {
+    "per_timestep_shape": [
+      32,
+      32,
+      32,
+      38
+    ],
+    "flattened_shape": [
+      32768,
+      38
+    ],
+    "dtype": "float64",
+    "file_format": "HyperCLaw-V1.1 AMReX/BoxLib"
+  },
+  "sample_metadata": {
+    "f_metadata": {
+      "plotfile": "/Users/owner/Projects/LBM/population_f/plt1001001",
+      "dims": [
+        32,
+        32,
+        32
+      ],
+      "dx": "[0.03125 0.03125 0.03125]",
+      "left": "[0. 0. 0.]",
+      "right": "[1. 1. 1.]",
+      "time": 1001001.0,
+      "step": 1001001,
+      "fields": [
+        [
+          "boxlib",
+          "f0"
+        ],
+        [
+          "boxlib",
+          "f1"
+        ],
+        [
+          "boxlib",
+          "f2"
+        ],
+        [
+          "boxlib",
+          "f3"
+        ],
+        [
+          "boxlib",
+          "f4"
+        ],
+        [
+          "boxlib",
+          "f5"
+        ],
+        [
+          "boxlib",
+          "f6"
+        ],
+        [
+          "boxlib",
+          "f7"
+        ],
+        [
+          "boxlib",
+          "f8"
+        ],
+        [
+          "boxlib",
+          "f9"
+        ],
+        [
+          "boxlib",
+          "f10"
+        ],
+        [
+          "boxlib",
+          "f11"
+        ],
+        [
+          "boxlib",
+          "f12"
+        ],
+        [
+          "boxlib",
+          "f13"
+        ],
+        [
+          "boxlib",
+          "f14"
+        ],
+        [
+          "boxlib",
+          "f15"
+        ],
+        [
+          "boxlib",
+          "f16"
+        ],
+        [
+          "boxlib",
+          "f17"
+        ],
+        [
+          "boxlib",
+          "f18"
+        ]
+      ],
+      "ftype": "boxlib",
+      "var_prefix": "f"
+    },
+    "g_metadata": {
+      "plotfile": "/Users/owner/Projects/LBM/population_g/plt1001001",
+      "dims": [
+        32,
+        32,
+        32
+      ],
+      "dx": "[0.03125 0.03125 0.03125]",
+      "left": "[0. 0. 0.]",
+      "right": "[1. 1. 1.]",
+      "time": 1001001.0,
+      "step": 1001001,
+      "fields": [
+        [
+          "boxlib",
+          "g0"
+        ],
+        [
+          "boxlib",
+          "g1"
+        ],
+        [
+          "boxlib",
+          "g2"
+        ],
+        [
+          "boxlib",
+          "g3"
+        ],
+        [
+          "boxlib",
+          "g4"
+        ],
+        [
+          "boxlib",
+          "g5"
+        ],
+        [
+          "boxlib",
+          "g6"
+        ],
+        [
+          "boxlib",
+          "g7"
+        ],
+        [
+          "boxlib",
+          "g8"
+        ],
+        [
+          "boxlib",
+          "g9"
+        ],
+        [
+          "boxlib",
+          "g10"
+        ],
+        [
+          "boxlib",
+          "g11"
+        ],
+        [
+          "boxlib",
+          "g12"
+        ],
+        [
+          "boxlib",
+          "g13"
+        ],
+        [
+          "boxlib",
+          "g14"
+        ],
+        [
+          "boxlib",
+          "g15"
+        ],
+        [
+          "boxlib",
+          "g16"
+        ],
+        [
+          "boxlib",
+          "g17"
+        ],
+        [
+          "boxlib",
+          "g18"
+        ]
+      ],
+      "ftype": "boxlib",
+      "var_prefix": "g"
+    }
+  }
+}
